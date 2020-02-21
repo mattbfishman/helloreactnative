@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0D58BA1223FE3B3B00A26728 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 0D58BA1023FE3B3B00A26728 /* assets */; };
 		0D58BA1323FE3B3B00A26728 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 0D58BA1123FE3B3B00A26728 /* main.jsbundle */; };
+		0D6357E823FF9DA800FD6BE6 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D6357E723FF9DA800FD6BE6 /* AppCenter-Config.plist */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -20,6 +21,7 @@
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		0D58BA1023FE3B3B00A26728 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
 		0D58BA1123FE3B3B00A26728 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		0D6357E723FF9DA800FD6BE6 /* AppCenter-Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "AppCenter-Config.plist"; path = "../../Documents/AppCenter-Config.plist"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* SeinfeldApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeinfeldApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SeinfeldApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SeinfeldApp/AppDelegate.m; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				0D6357E723FF9DA800FD6BE6 /* AppCenter-Config.plist */,
 				13B07FAE1A68108700A75B9A /* SeinfeldApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
@@ -169,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D58BA1223FE3B3B00A26728 /* assets in Resources */,
+				0D6357E823FF9DA800FD6BE6 /* AppCenter-Config.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				0D58BA1323FE3B3B00A26728 /* main.jsbundle in Resources */,

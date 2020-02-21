@@ -7,7 +7,13 @@
     "postinstall": "jetify"
   },
   "dependencies": {
+    "appcenter": "2.6.1",
+    "appcenter-analytics": "2.6.1",
+    "appcenter-crashes": "2.6.1",
+    "appcenter-push": "^2.6.1",
     "expo": "~36.0.0",
+    "expo-av": "^8.0.0",
+    "pod": "^0.9.0",
     "react": "~16.9.0",
     "react-dom": "~16.9.0",
     "react-native": "~0.61.4",
@@ -15,12 +21,7 @@
     "react-native-reanimated": "~1.4.0",
     "react-native-screens": "~2.0.0-alpha.12",
     "react-native-unimodules": "~0.7.0",
-    "react-native-web": "~0.11.7",
-    "appcenter": "2.6.1",
-    "appcenter-analytics": "2.6.1",
-    "appcenter-crashes": "2.6.1",
-    "expo-av": "^8.0.0",
-    "pod": "^0.9.0"
+    "react-native-web": "~0.11.7"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",

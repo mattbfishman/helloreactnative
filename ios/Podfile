@@ -40,6 +40,10 @@ target 'SeinfeldApp' do
   pod 'RNGestureHandler', :podspec => '../node_modules/react-native-gesture-handler/RNGestureHandler.podspec'
   pod 'RNReanimated', :podspec => '../node_modules/react-native-reanimated/RNReanimated.podspec'
   pod 'RNScreens', :path => '../node_modules/react-native-screens'
+  pod 'appcenter', path: '../node_modules/appcenter/ios'
+  pod 'appcenter-analytics', path: '../node_modules/appcenter-analytics/ios'
+  pod 'appcenter-crashes', path: '../node_modules/appcenter-crashes/ios'
+  pod 'appcenter-push', path: '../node_modules/appcenter-push/ios'
 
   # Automatically detect installed unimodules
   use_unimodules!
